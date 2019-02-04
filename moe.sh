@@ -12,7 +12,7 @@ declare -a arr=(
 'sudo umount /home/kai/mnt/lin'
 )
 if [ $# -eq 0 ]; then 
-echo "win[0.5],rec[1.6],aps[2.7],pho[3.8],lin[4.9] 5-9 umount"
+echo "win[0/5],rec[1/6],aps[2/7],pho[3/8],lin[4/9] =part[mount/unmount]"
 fi
 while [ $# -gt 0 ]
 do
